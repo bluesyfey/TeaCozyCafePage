@@ -1,0 +1,247 @@
+body{
+  background-color: black;
+}
+ol, ul{
+    margin-left: 20px;
+    padding: none;
+    margin-top: 0;
+    list-style: none;
+}
+     
+  
+header{
+     background-color: black;
+     overflow: hidden;
+     position: sticky;
+     border-bottom: 1px solid seashell;
+     width: 1300px;
+       display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo{
+    float: left;
+    padding: none;
+    margin: 10px;
+    width: 30%;
+    opacity: 0.9;
+}
+ 
+#logo img{
+    float: left;
+height: 50px
+}    
+
+#menu{
+    float: right;
+    width: 60%;
+    height: 69px;
+    margin: none;
+}
+     
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+}
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0.3em;
+    text-decoration: underline;
+    font-weight: 60;
+    font-size: 22px;
+    font-family: Helvetica;
+    line-height: 60px;
+}
+     
+#menu li a{
+    color: seashell;
+    opacity: 0.9;
+}
+     
+#menu li:hover a, #menu li span{
+    background-color: #FFF;
+    color: black;
+    text-decoration: none;
+}
+
+.parent {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.bg {
+  display: block;
+  height: 700px;
+  width: 100%; /* Ensure the image fills its container */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; 
+  max-width: 1200px;
+  font-family: Helvetica;
+    font-weight: bold;
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  padding: 7px;
+  text-align: center;
+}
+
+.heading-container {
+  margin-bottom: 15px; 
+}
+
+h2, h4 {
+  margin: 0;
+}
+
+.teas {
+    font-size: 22px;
+  color: seashell;
+    text-align: center;
+  font-family: Helvetica;
+    margin-top: 100px; 
+}
+.teatypes {
+    font-size: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 1000px; /* Set the maximum width */
+  width: 100%; /* Ensure it takes the full width available */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.tt {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.tea-item {
+  text-align: center;
+}
+
+.teaname {
+   font-size: 22px;
+    font-weight: bold;
+  font-family: Helvetica;
+  color: seashell;
+  margin-top: 5px; /* Adjust margin as needed */
+}
+.Pin {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.location {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 100px; 
+}
+
+.bg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: -19%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 15px;
+    font-family: Helvetica;
+
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.black-box {
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  width: 300px;
+  height: 300px;
+  font-family: Helvetica;
+  text-align: center;
+  margin-right: 40px;
+  line-height: 310%; 
+  opacity: 1;
+}
+.black-box p {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.black-box strong {
+  font-weight: bold; /* Make the text inside <strong> tag bold */
+}
+
+footer {
+  font-family: Helvetica;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: seashell; 
+  text-align: center;
+  height: 200px;
+}
+
+.bottom-text {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.bottom-text p {
+  margin: 0;
+  margin-left: 20px;
+  font-family: Helvetica;
+  font-size: 16px;
+}
